@@ -1,0 +1,13 @@
+Package: m6APrediction
+Title: Prediction of m6A RNA Modification Sites
+Version: 1.0.0
+Authors@R: 
+    person("Zhiyin", "Wei", , "Zhiyin.Wei23@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: Functions for predicting m6A RNA modification sites using Random Forest and related features such as GC content, RNA type, and exon structure.
+Depends: R (>= 3.5.0), randomForest
+Imports:
+    randomForest
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
