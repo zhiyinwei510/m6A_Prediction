@@ -10,10 +10,10 @@ conservation, and DNA 5mer to estimate the probability and
 classification of m6A sites.
 
 ## ROC Curve
-![ROC Curve](https://github.com/zhiyinwei510/m6APrediction/blob/main/inst/images/roc_curve.png)
+![ROC Curve](https://github.com/zhiyinwei510/m6A_Prediction/blob/main/inst/images/roc_curve.png)
 
 ## PRC Curve
-![PRC Curve](https://github.com/zhiyinwei510/m6APrediction/blob/main/inst/images/prc_curve.png)
+![PRC Curve](https://github.com/zhiyinwei510/m6A_Prediction/blob/main/inst/images/prc_curve.png)
 
 ------------------------------------------------------------------------
 
@@ -23,7 +23,7 @@ Install the package directly from GitHub:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("zhiyinwei510/m6APrediction")
+devtools::install_github("zhiyinwei510/m6A_Prediction")
 ```
 
 ## Example Usage
