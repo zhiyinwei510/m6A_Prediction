@@ -17,6 +17,7 @@
 Install the package directly from GitHub:
 
 ``` r
+#install.packages("remotes")
 remotes::install_github("zhiyinwei510/m6A_Prediction")
 ```
 

@@ -42,6 +42,7 @@ dna_encoding <- function(dna_strings){ #在每个函数上方添加help。
 #'
 #' # Run prediction example
 #' prediction_multiple(rf_fit, example_data, 0.6)
+#' @import randomForest
 #' @export
 prediction_multiple <- function(ml_fit, feature_df, positive_threshold=0.5){
   stopifnot(all(c("gc_content", "RNA_type", "RNA_region", "exon_length", "distance_to_junction", "evolutionary_conservation", "DNA_5mer") %in% colnames(feature_df)))
@@ -82,6 +83,7 @@ prediction_multiple <- function(ml_fit, feature_df, positive_threshold=0.5){
 #' @examples
 #' rf_fit <- readRDS(system.file("extdata", "rf_fit.rds", package = "m6APrediction"))
 #' prediction_single(rf_fit, 0.6, "mRNA", "CDS", 12, 5, 0.8, "ATCGAT", 0.5)
+#' @import randomForest
 #' @export
 prediction_single <- function(ml_fit, gc_content, RNA_type, RNA_region, exon_length, distance_to_junction, evolutionary_conservation, DNA_5mer, positive_threshold){
   feature_df<-data.frame(gc_content=gc_content,RNA_type=RNA_type,RNA_region=RNA_region,exon_length=exon_length,distance_to_junction=distance_to_junction,evolutionary_conservation=evolutionary_conservation,DNA_5mer=DNA_5mer)
