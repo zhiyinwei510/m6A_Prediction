@@ -17,8 +17,7 @@
 Install the package directly from GitHub:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("zhiyinwei510/m6A_Prediction")
+remotes::install_github("zhiyinwei510/m6A_Prediction")
 ```
 
 ## Example Usage
