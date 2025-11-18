@@ -2,12 +2,7 @@
 
 ## Purpose
 
-`m6APrediction` is an R package for predicting RNA m6A modification
-sites using a Random Forest model.  
-It uses sequence and structure features such as GC content, RNA type,
-RNA region, exon length, distance to junction, evolutionary
-conservation, and DNA 5mer to estimate the probability and
-classification of m6A sites.
+`m6APrediction` is an R package for predicting N6-methyladenosine (m6A) RNA modification sites using machine learning models such as Random Forest. It provides functions to encode DNA sequences, perform multiple-sample prediction, and make single-sample predictions with interpretable probability outputs.
 
 ## ROC Curve
 ![ROC Curve](https://github.com/zhiyinwei510/m6A_Prediction/blob/main/inst/images/roc_curve.png)
